@@ -1,4 +1,4 @@
-## REXX Change All Prepare JCL
+## REXX Change All Batch Program Prepare JCL
 
 Batch REXX program reads in two input files:
 

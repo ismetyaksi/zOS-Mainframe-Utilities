@@ -1,0 +1,18 @@
+PAGE 0002  - NOW SET TO TARGET ZONE MYZONE1  DATE 04/18/19  TIME 10:23:48  SMP/E 12.34   SMPLIST  OUTPUT
+
+MYZONE1  SYSMOD ENTRIES
+
+  NAME
+
+ABC1234   TYPE            = PTF
+          LASTUPD         = UCLIN    TYPE=UPD
+          STATUS          = REC  BYP  APP
+          FMID            = MYFMID1
+          JCLIN           = YES
+          DATE/TIME REC   = 12.364  12:17:41
+                    INS   = 12.364  12:17:47
+                    UCL   = 12.364  12:54:02
+          SOURCEID        = MY-SOURCE-ID-1
+                            MY-SOURCE-ID-4
+:
+:

@@ -53,12 +53,12 @@
 
          CALL ADD_PRIMARY_MESSAGE_LINE
 
-         DROP MSG_LINES.
+ /*      DROP MSG_LINES.              === DUPLICATE REMOVED */
 
-         N_1ST_LINE = N_1ST_LINE + 1
-         IX1 = 1
-         MSG_LINES.IX1 = LINE_INPUT.1
-         MSG_LINES.0   = IX1
+ /*      N_1ST_LINE = N_1ST_LINE + 1  === DUPLICATE REMOVED */
+ /*      IX1 = 1                      === DUPLICATE REMOVED */
+ /*      MSG_LINES.IX1 = LINE_INPUT.1 === DUPLICATE REMOVED */
+ /*      MSG_LINES.0   = IX1          === DUPLICATE REMOVED */
        END
      WHEN POS(TYPE_N_REQUEST, CONT_LINES) <> 0 THEN
        DO
